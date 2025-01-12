@@ -1,8 +1,8 @@
-Full-Stack Contact Management App
+# Full-Stack Contact Management App
 
 This project is a basic full-stack CRUD (Create, Read, Update, Delete) application designed to manage a list of contacts. It showcases how to integrate a Python Flask backend with a React frontend, emphasizing separation of concerns and clean API design.
 
-Features
+## Features
 
 Backend: Developed using Flask, the backend provides RESTful API endpoints to handle CRUD operations for contact management.
 
@@ -20,9 +20,9 @@ Update: Edit details of an existing contact.
 
 Delete: Remove contacts from the database.
 
-Prerequisites
+## Prerequisites
 
-Backend
+### Backend
 
 Python 3.7+
 
@@ -34,15 +34,15 @@ Flask-CORS
 
 MySQL server and SQL Workbench
 
-Frontend
+### Frontend
 
 Node.js
 
 npm or yarn
 
-Getting Started
+## Getting Started
 
-Backend Setup
+### Backend Setup
 
 Clone the repository and navigate to the backend directory:
 
@@ -62,7 +62,7 @@ python main.py
 
 The backend will start running on http://127.0.0.1:5000.
 
-Frontend Setup
+### Frontend Setup
 
 Navigate to the frontend directory:
 
@@ -78,7 +78,7 @@ npm run dev
 
 The frontend will start running on http://127.0.0.1:5173 (port may vary).
 
-API Endpoints
+## API Endpoints
 
 Base URL
 
@@ -120,9 +120,9 @@ Delete Contact
 
 DELETE /delete_contact/<id>
 
-Project Structure
+## Project Structure
 
-Backend
+### Backend
 
 main.py: Entry point of the Flask application.
 
@@ -130,7 +130,7 @@ models.py: Defines the database schema using SQLAlchemy.
 
 config.py: Configuration file for the Flask application.
 
-Frontend
+### Frontend
 
 src/
 
@@ -140,7 +140,7 @@ components/: Contains reusable React components like ContactList and ContactForm
 
 styles/: Contains CSS files for styling the application.
 
-Usage
+## Usage
 
 Launch the backend server by running main.py.
 
